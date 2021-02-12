@@ -43,6 +43,6 @@ public class CoinController
             System.out.println(c.getQuantity() + " " + (c.getQuantity() > 1 ? c.getNamePlural() : c.getName()));
         }
         System.out.println("The piggybank is holding " + total);
-        return new ResponseEntity<>(coinList, HttpStatus.OK);
+        return new ResponseEntity<>(total, HttpStatus.OK);
     }
 }
