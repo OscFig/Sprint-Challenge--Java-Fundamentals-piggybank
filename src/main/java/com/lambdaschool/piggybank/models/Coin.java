@@ -3,7 +3,7 @@ package com.lambdaschool.piggybank.models;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Coins")
+@Table(name = "coins")
 public class Coin
 {
     @Id
